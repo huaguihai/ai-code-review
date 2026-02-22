@@ -1,0 +1,12 @@
+# AI 代码审查配置
+language: zh        # zh | en - 审查报告语言
+model: auto         # auto | gemini | deepseek | openai - AI 模型
+severity: medium    # low | medium | high - 最低报告级别
+ignore:             # 忽略的文件/目录
+  - "*.md"
+  - "*.lock"
+  - "vendor/"
+  - "node_modules/"
+  - "dist/"
+  - "*.min.js"
+  - "*.min.css"
